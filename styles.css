@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+#shop, #gameCanvas, #score, #message {
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    border: 1px solid #000; /* Add border to canvas for better visibility */
+}
+
+#score, #message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E8B57; /* Sea Green */
+}
+
